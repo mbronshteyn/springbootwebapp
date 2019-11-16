@@ -4,9 +4,9 @@ package guru.springframework.services;
 import guru.springframework.domain.Product;
 
 public interface ProductService {
-    Iterable<Product> listAllProducts();
+  Iterable<Product> listAllProducts();
 
-    Product getProductById(Integer id);
+  Product getProductById(Integer id);
 
-    Product saveProduct(Product product);
+  Product saveProduct(Product product);
 }
